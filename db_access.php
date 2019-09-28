@@ -9,7 +9,7 @@
   class db_access {
     public function access_check(){
       // ドライバ呼び出しを使用して MySQL データベースに接続します
-      $dsn = sprintf('mysql:dbname=%s;host=%s', $_ENV['DB_TABLE'], $_ENV['DB_HOST']);
+      $dsn = sprintf('mysql:dbname=%s;host=%s', $_ENV['DB_DATABASE'], $_ENV['DB_HOST']);
       $user = $_ENV['DB_USER'];
       $password = $_ENV['DB_PASSWORD'];
 
