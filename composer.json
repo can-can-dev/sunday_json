@@ -1,0 +1,6 @@
+{
+    "require": {
+        "vlucas/phpdotenv": "^3.6",
+        "monolog/monolog": "^2.0"
+    }
+}
